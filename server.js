@@ -24,6 +24,7 @@ function handler (request, response) {
       function(error, file)
       {
         if (error) {
+              console.log("nope nothing here to see");
           console.log(error);
           return;
         }
