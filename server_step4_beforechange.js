@@ -7,46 +7,27 @@ var message;
 function handler (request, response) {
   var endpoint = request.url;
   console.log(endpoint);
-
   var method = request.method;
   console.log(method);
+  if (endpoint==='/') {
 
-  if (endpoint==='/')
-  {
     message="I am so happy to be part of Node Girls Workshop!";
     response.writeHead(200, {"Content-Type": "text/html"})
 
-    /*response.write(message); //response body
-    response.end(); //finish response*/
+    response.write(message); //response body
+    response.end(); //finish response
 
-    fs.readFile(
-      __dirname + '/public/index.html',
-      function(error, file)
-      {
-        if (error) {
-          console.log(error);
-          return;
-        }
-
-        response.end(file);
-      }
-    );
-  }
-  else if (endpoint==='/nodegirls')
-  {
+} else if (endpoint==='/nodegirls') {
     message="Node Girls are cool"
     response.writeHead(200, {"Content-Type": "text/html"})
     response.write(message); //response body
     response.end(); //finish response
-  }
-  else
-  {
+  } else {
     message="no chocolate for you today"
     response.writeHead(200, {"Content-Type": "text/html"})
     response.write(message);
     response.end();
   }
-
 }
 
 
