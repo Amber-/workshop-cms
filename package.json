@@ -1,0 +1,19 @@
+{
+  "name": "nodegirlsjs_project",
+  "version": "1.0.0",
+  "description": "my first node js project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amber-/workshop-cms.git"
+  },
+  "author": "Amber-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amber-/workshop-cms/issues"
+  },
+  "homepage": "https://github.com/Amber-/workshop-cms#readme"
+}
