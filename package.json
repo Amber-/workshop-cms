@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Amber-/workshop-cms.git"
+    "url": "git+https://github.com/yawyt/workshop-cms.git"
   },
   "author": "Amber-",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Amber-/workshop-cms/issues"
+    "url": "https://github.com/yawyt/workshop-cms/issues"
   },
-  "homepage": "https://github.com/Amber-/workshop-cms#readme"
+  "homepage": "https://github.com/yawyt/workshop-cms#readme"
 }
